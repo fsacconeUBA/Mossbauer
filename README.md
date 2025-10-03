@@ -1,9 +1,4 @@
 # Mossbauer
 
-"folding.py": dobla, normaliza y calibra en velocidad un espectro de 1024 canales en archivo a una columna
-
-"PyMossFit.py": ajusta espectro con el archivo de salida del código "folding.py". Se deben agregar tantas interacciones (singletes, dobletes, sextetes) como sean necesarias
-
-"plotmossb2.py": gráficos calidad publicación de espectros, ajustes y modelos de interacciones.
-
-PyMossFit-V4-1Q.ipynb y PyMossFit-V4-1Q1D.ipynb están diseñados para correr en Google Colab. Doblan espectros en canal optimizado con rutinas de FFT. Ajustan espectros mediante Lmfit, grafican y dan reporte de salida.
+PyMossFit_V7.ipynb: en español. Pregunta por el tipo y número de subespectros, sus parámetros y usa rutinas FFT de plegado. Una vez finalizado el ajuste con Lmfit puede identificarse los compuestos de hierro mediante un algoritmo de machine learning (K-NN) en una base de datos local (reference_data.csv) 
+PyMossFit_V7_ENG.ipynb: instructions in english
